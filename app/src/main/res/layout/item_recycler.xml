@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent">
+
+    <data>
+
+    </data>
+
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+       >
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:scaleType = "fitXY"
+                android:layout_weight="97"
+                app:layout_constraintRight_toRightOf="parent"
+                android:src="@drawable/charizard"
+                android:id="@+id/image_poke"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_weight="3"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="Charizard"
+                android:id="@+id/name_pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="3dp"
+
+                />
+
+        </LinearLayout>
+
+</layout>

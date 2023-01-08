@@ -1,0 +1,10 @@
+<resources>
+    <string name="sp_name">preference_pokedex_hetr</string>
+
+
+    <string name="app_name">prueba HETR</string>
+    <string name="str_cards">Cards</string>
+    <string name="str_ultra_pkm">Ultra pokemons</string>
+
+
+</resources>
